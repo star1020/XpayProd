@@ -1,0 +1,160 @@
+/* _content/XpayWeb/Views/Shared/_Layout.cshtml.rz.scp.css */
+body[b-cxx1r787kc] {
+    background-color: #f4f6f9;
+    padding-bottom: 20px;
+}
+
+.navbar[b-cxx1r787kc] {
+    background-color: #111827;
+}
+
+.navbar-brand[b-cxx1r787kc] {
+    color: white !important;
+    font-weight: bold;
+}
+
+.balance-card[b-cxx1r787kc] {
+    background: linear-gradient(135deg, #2563eb, #1e40af);
+    color: white;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.transaction-card[b-cxx1r787kc] {
+    background: white;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+ ✅ Force logout overlay 
+#forceLogoutOverlay[b-cxx1r787kc] {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.6);
+    z-index: 99998;
+}
+
+#forceLogoutModal[b-cxx1r787kc] {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    border-radius: 16px;
+    padding: 32px;
+    z-index: 99999;
+    width: 340px;
+    text-align: center;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+}
+
+    #forceLogoutModal .icon[b-cxx1r787kc] {
+        font-size: 48px;
+        margin-bottom: 12px;
+    }
+
+    #forceLogoutModal h5[b-cxx1r787kc] {
+        font-weight: 700;
+        margin-bottom: 8px;
+        color: #111827;
+    }
+
+    #forceLogoutModal p[b-cxx1r787kc] {
+        color: #6b7280;
+        font-size: 14px;
+        margin-bottom: 24px;
+    }
+
+    #forceLogoutModal button[b-cxx1r787kc] {
+        width: 100%;
+        padding: 10px;
+        background: #dc3545;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        font-size: 15px;
+        font-weight: 600;
+        cursor: pointer;
+    }
+
+        #forceLogoutModal button:hover[b-cxx1r787kc] {
+            background: #bb2d3b;
+        }
+
+#chatbotButton[b-cxx1r787kc] {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    width: 60px;
+    height: 60px;
+    background: #2563eb;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 26px;
+    cursor: pointer;
+    z-index: 99999;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+#chatbotBox[b-cxx1r787kc] {
+    position: fixed;
+    bottom: 95px;
+    right: 25px;
+    width: 320px;
+    height: 420px;
+    background: white;
+    border-radius: 12px;
+    display: none;
+    flex-direction: column;
+    overflow: hidden;
+    z-index: 99999;
+}
+
+.chat-header[b-cxx1r787kc] {
+    background: #111827;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+    .chat-header button[b-cxx1r787kc] {
+        background: transparent;
+        border: none;
+        color: white;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+.chat-body[b-cxx1r787kc] {
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto;
+    font-size: 14px;
+}
+
+.chat-footer[b-cxx1r787kc] {
+    display: flex;
+    border-top: 1px solid #ddd;
+}
+
+    .chat-footer input[b-cxx1r787kc] {
+        flex: 1;
+        border: none;
+        padding: 10px;
+        outline: none;
+    }
+
+    .chat-footer button[b-cxx1r787kc] {
+        background: #2563eb;
+        color: white;
+        border: none;
+        padding: 10px 15px;
+    }
