@@ -5,6 +5,6 @@ WORKDIR /app
 
 # Copy published folder into container
 COPY . .
-
+RUN ls -la
 # Run the app
 ENTRYPOINT ["dotnet", "XpayAPI.dll"]
